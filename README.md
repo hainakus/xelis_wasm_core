@@ -12,7 +12,7 @@ This project provides WebAssembly (WASM) bindings for the XELIS hash function, o
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/xelis-wasm-nodejs.git
+   git clone https://github.com/hainakus/xelis-wasm-nodejs.git
    cd xelis-wasm-nodejs
    ```
 
