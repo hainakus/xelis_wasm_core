@@ -1,0 +1,23 @@
+{
+  "name": "xelis-wasm-nodejs",
+  "version": "0.1.0",
+  "description": "Xelis Hash WASM bindings for Node.js",
+  "main": "pkg/wasm_lib.js",
+  "type": "module",
+  "scripts": {
+    "build": "wasm-pack build --target nodejs --out-dir pkg --release",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "example": "node examples/test.js"
+  },
+  "keywords": ["xelis", "wasm", "nodejs", "crypto", "hash"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@wasm-tool/wasm-pack-plugin": "^1.7.0",
+    "jest": "^29.7.0",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+  }
+}
